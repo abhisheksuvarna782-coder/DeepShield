@@ -4,7 +4,8 @@
 
 ### AI-Powered Deepfake Detection • Leak Intelligence • Automated Legal Response
 
-<img src="assets/home.png" width="100%" alt="DeepShield Banner">
+<img src="<img width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/50c6f30f-6920-46de-b4b3-a817a7e047cb" />
+" width="100%" alt="DeepShield Banner">
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi)
