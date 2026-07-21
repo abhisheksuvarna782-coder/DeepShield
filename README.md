@@ -4,8 +4,7 @@
 
 ### AI-Powered Deepfake Detection • Leak Intelligence • Automated Legal Response
 
-<img src="<img width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/542b2699-c39d-4c3f-bf82-1fc93211fa6a" />
-" width="100%" alt="DeepShield Banner">
+<img src="https://github.com/user-attachments/assets/542b2699-c39d-4c3f-bf82-1fc93211fa6a" width="100%" alt="DeepShield Banner">
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi)
@@ -20,198 +19,173 @@
 
 # 📖 Overview
 
-**DeepShield** is an AI-powered digital protection platform designed to combat **deepfakes, AI-generated explicit content, identity misuse, and image leaks**.
+**DeepShield** is an AI-powered cybersecurity platform that protects users from **deepfakes, AI-generated explicit content, identity misuse, and image leaks**.
 
-The platform combines computer vision, threat intelligence, reverse image search, facial matching, perceptual hashing, and automated legal response into one unified cybersecurity solution.
+DeepShield combines AI-powered image forensics, reverse image intelligence, perceptual hashing, threat analysis, and automated legal response into one unified platform.
 
-DeepShield helps users:
+### ✨ Key Highlights
 
-- 🔍 Detect AI-generated deepfake images
-- 🚨 Detect NSFW AI-generated content
-- 🌐 Search for leaked images across the internet
-- 🧠 Generate AI-powered threat assessments
-- ⚖️ Generate legal documents automatically
-- 📑 Create DMCA takedown requests
-- 👮 Generate police complaint drafts
-- 🛡️ Monitor identity leaks continuously
+- 🔍 AI Deepfake Detection
+- 🚨 NSFW AI Content Detection
+- 🌐 Reverse Image & Leak Detection
+- 🧠 AI Threat Assessment
+- ⚖️ DMCA & Legal Document Generation
+- 👮 Police Complaint Generator
+- 🛡️ Continuous Monitoring Dashboard
+- 🔐 Privacy-First Architecture
 
 ---
 
-# ✨ Features
+# 🚀 Features
 
 ## 🔍 AI Deepfake Detection
 
 - Vision Transformer based analysis
-- Multiple AI detection models
-- Confidence scoring
+- AI-generated image detection
 - Authenticity verification
-
----
+- Confidence scoring
 
 ## 🚨 NSFW Detection
 
-- AI explicit content detection
+- Explicit AI image detection
 - Image safety classification
-- Risk assessment
+- Risk analysis
 
----
+## 🌐 Leak Intelligence
 
-## 🌐 Leak Detection
-
-- Reverse image intelligence
+- Reverse image search
 - Facial signature matching
 - Perceptual hash verification
 - Leak source identification
 
----
-
-## 🧠 Threat Assessment
+## 🧠 Situation Assessment
 
 Describe any incident and DeepShield generates:
 
-- Threat level
-- Risk analysis
-- Spread estimation
-- Recommended actions
-- Legal suggestions
-
----
+- Threat Level
+- Risk Score
+- Spread Estimation
+- Recommended Actions
+- Legal Guidance
 
 ## ⚖️ Legal Toolkit
 
-Generate:
+Generate professional legal documents including:
 
 - DMCA Takedown Notices
-- Police Complaint Drafts
+- Police Reports
 - Platform Removal Requests
-- Legal Reports
-
----
+- Legal Complaint Drafts
 
 ## 🛡️ Continuous Monitoring
 
 - Upload reference images
 - Local perceptual hashing
-- Continuous internet monitoring
+- Continuous web monitoring
 - Privacy-first architecture
-- Instant alerts
+- Instant threat alerts
 
 ---
 
 # 🏗️ Tech Stack
 
-## Frontend
+### Frontend
 
 - React.js
 - Vite
 - React Router
-- Modern CSS
-- Responsive UI
+- CSS3
 
-## Backend
+### Backend
 
 - FastAPI
 - Python
 - Uvicorn
 
-## AI Models
+### AI Models
 
-- CLIP Vision Transformer
+- Vision Transformer (ViT)
 - Deepfake Detection Model
 - NSFW Detection Model
 - Perceptual Hash Matching
 - OCR Analysis
 
-## Intelligence
+### Intelligence
 
 - Reverse Image Search
-- Threat Profiling
 - Leak Intelligence
+- Threat Profiling
 - Legal AI Assistant
 
 ---
 
-# 📸 Screenshots
-
----
+# 📸 Project Screenshots
 
 ## 🏠 Home Page
 
-<img src="<img width="1363" height="633" alt="Screenshot 2026-07-21 201425" src="https://github.com/user-attachments/assets/916417ca-294d-4227-ba72-fb8dbaa47646" />
-
-
-" width="100%" alt="Home Page">
+<img src="https://github.com/user-attachments/assets/916417ca-294d-4227-ba72-fb8dbaa47646" width="100%" alt="Home">
 
 ---
 
 ## 🚀 Platform Features
 
-<img src="<img width="1365" height="621" alt="Screenshot 2026-07-21 201457" src="https://github.com/user-attachments/assets/927dd5ff-32c8-4c43-b85b-28e427eba347" />
-" width="100%" alt="Features">
+<img src="https://github.com/user-attachments/assets/927dd5ff-32c8-4c43-b85b-28e427eba347" width="100%" alt="Features">
 
 ---
 
-## 🔎 Image Scanner
+## 🔎 Deepfake Scanner
 
-Detect Deepfakes • NSFW • Leak Intelligence
-
-<img src="<img width="1359" height="767" alt="Screenshot 2026-07-21 201706" src="https://github.com/user-attachments/assets/d62cbd73-a92a-42f9-a57b-44c43349ccc0" />
-" width="100%" alt="Scanner">
+<img src="https://github.com/user-attachments/assets/d62cbd73-a92a-42f9-a57b-44c43349ccc0" width="100%" alt="Scanner">
 
 ---
 
 ## 🧠 Situation Assessment
 
-AI-generated threat analysis and response protocol.
-
-<img src="<img width="1365" height="752" alt="Screenshot 2026-07-21 201915" src="https://github.com/user-attachments/assets/9e3decdf-0960-4da2-b31d-0f688e180c0c" />
-" width="100%" alt="Assessment">
+<img src="https://github.com/user-attachments/assets/9e3decdf-0960-4da2-b31d-0f688e180c0c" width="100%" alt="Assessment">
 
 ---
 
 ## ⚖️ Legal Toolkit
 
-Generate legal documents instantly.
-
-<img src="<img width="1363" height="765" alt="Screenshot 2026-07-21 201956" src="https://github.com/user-attachments/assets/d4597d48-3686-4b06-82cc-d927d08c6b26" />
-g" width="100%" alt="Legal Toolkit">
+<img src="https://github.com/user-attachments/assets/d4597d48-3686-4b06-82cc-d927d08c6b26" width="100%" alt="Legal Toolkit">
 
 ---
 
 ## 🛡️ Monitoring Dashboard
 
-Continuous protection and leak monitoring.
-
-<img src="<img width="1365" height="767" alt="Screenshot 2026-07-21 202101" src="https://github.com/user-attachments/assets/15fcf5d8-0937-4e1b-9fb8-9631cb8d40c7" />
-" width="100%" alt="Dashboard">
+<img src="https://github.com/user-attachments/assets/15fcf5d8-0937-4e1b-9fb8-9631cb8d40c7" width="100%" alt="Dashboard">
 
 ---
 
-## 🎯 Detection Landing
+## 🎯 Landing Page
 
-<img src="<img width="1365" height="624" alt="Screenshot 2026-07-21 201531" src="https://github.com/user-attachments/assets/9c3b9bff-bdcc-49bb-8c94-ae85abe2922f" />
-" width="100%" alt="Landing">
+<img src="https://github.com/user-attachments/assets/9c3b9bff-bdcc-49bb-8c94-ae85abe2922f" width="100%" alt="Landing">
 
 ---
 
 ## ⚡ Loading Screen
 
-<img src="<img width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/b0fe8fb9-f0f4-4dc9-b352-032b2df2a9eb" />
-" width="100%" alt="Loading">
+<img src="https://github.com/user-attachments/assets/b0fe8fb9-f0f4-4dc9-b352-032b2df2a9eb" width="100%" alt="Loading">
 
 ---
-
 # ⚙️ Installation
 
-## Clone Repository
+## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+# ⚙️ Installation
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/abhisheksuvarna782-coder/DeepShield.git
+
+cd DeepShield
+```
 ```
 
----
 
-## Frontend
+## Frontend Setup
 
 ```bash
 cd frontend
@@ -221,9 +195,15 @@ npm install
 npm run dev
 ```
 
+The frontend will start on:
+
+```
+http://localhost:5173
+```
+
 ---
 
-## Backend
+## Backend Setup
 
 ```bash
 cd backend
@@ -233,92 +213,154 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+The backend API will start on:
+
+```
+http://127.0.0.1:8000
+```
+
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```
 DeepShield
 │
-├── frontend
-│   ├── src
-│   ├── public
-│   └── package.json
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
 │
-├── backend
-│   ├── models
-│   ├── services
+├── backend/
+│   ├── models/
+│   ├── services/
+│   ├── uploads/
 │   ├── main.py
-│   └── requirements.txt
+│   ├── requirements.txt
+│   └── utils/
 │
-└── assets
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Upcoming Features
 
-- Live OSINT Intelligence
-- Browser Extension
-- Mobile App
-- Email Alerts
-- Telegram Alerts
-- User Authentication
-- Cloud Monitoring
-- AI Video Deepfake Detection
-- Real-time Threat Dashboard
+- 🎥 AI Video Deepfake Detection
+- 📱 Android & iOS Application
+- 🌐 Real-Time Leak Intelligence
+- 📧 Email Notifications
+- 📲 Telegram & WhatsApp Alerts
+- 🔐 User Authentication
+- ☁️ Cloud-Based Monitoring
+- 🤖 Advanced AI Threat Analysis
+- 📊 Interactive Analytics Dashboard
+- 🛰️ Live OSINT Integration
 
 ---
 
 # 🎯 Use Cases
 
-- Digital Identity Protection
-- Deepfake Investigation
-- Image Leak Detection
-- Online Reputation Protection
-- Cybercrime Reporting
-- Copyright Protection
-- Law Enforcement Assistance
-- Content Moderation
+DeepShield can be used for:
+
+- 🛡️ Digital Identity Protection
+- 🔍 Deepfake Investigation
+- 🌐 Online Image Leak Detection
+- 👤 Reputation Management
+- ⚖️ Legal Evidence Collection
+- 👮 Cybercrime Reporting
+- 📸 Copyright Protection
+- 📰 Fake Media Detection
+- 🏢 Enterprise Security
+- 🎓 Research & Education
 
 ---
 
-# 🔒 Privacy
+# 🔒 Privacy & Security
 
-DeepShield follows a **Privacy First** architecture.
+DeepShield follows a **Privacy-First Architecture**.
 
-- Local perceptual hashing
-- No unnecessary image storage
-- Secure AI processing
-- Minimal data collection
+✅ Images are processed securely.
+
+✅ Perceptual hashes are generated locally.
+
+✅ Minimal user data is stored.
+
+✅ AI analysis is performed securely.
+
+✅ Designed with cybersecurity best practices.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create a new branch.
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to GitHub.
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request.
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
 
 ---
 
 # 👨‍💻 Developer
 
-**Abhishek Suvarna**
+## Abhishek Suvarna
 
-AI & ML Engineer
+AI & Machine Learning Engineer
 
-GitHub:
+🎓 Computer Science (AI & ML)
+
+🔗 GitHub:
+
 https://github.com/abhisheksuvarna782-coder
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Give this repository a ⭐ on GitHub.
+If you found this project helpful,
 
-It motivates future development and improvements.
+please consider giving it a **⭐ Star** on GitHub.
+
+Your support motivates future improvements and new features.
 
 ---
 
 <div align="center">
 
-## 🛡️ DeepShield
+# 🛡️ DEEPSHIELD
 
 ### Protect • Detect • Respond
 
-Built with ❤️ using React, FastAPI and Artificial Intelligence.
+**AI-Powered Digital Protection Against Deepfakes & Image Leaks**
+
+Built with ❤️ using **React • FastAPI • Python • Artificial Intelligence**
+
+⭐ **Thanks for visiting this repository!** ⭐
 
 </div>
