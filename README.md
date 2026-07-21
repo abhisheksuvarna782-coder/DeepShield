@@ -130,3 +130,31 @@ CORS error: check ALLOWED_ORIGINS in backend/.env includes your frontend port
 LLM 503: run `ollama serve` then `ollama pull tinyllama`
 Port 3000 in use: change port in frontend/vite.config.js and add it to ALLOWED_ORIGINS
 Leak search shows RISK-BASED results: Google/Bing blocked automated search in your region — intelligence estimates are shown instead of confirmed matches
+
+---
+
+## Screenshots
+
+Below are screenshots of the `DeepShield` UI. To make these visible on GitHub, add the image files to `assets/screenshots/` with the filenames used below and push them to the repository.
+
+- `assets/screenshots/screen1.png` — Loading / Splash
+- `assets/screenshots/screen2.png` — Home hero
+- `assets/screenshots/screen3.png` — Features / Threat protection
+- `assets/screenshots/screen4.png` — Protect / Respond
+- `assets/screenshots/screen5.png` — Scan page (uploader)
+- `assets/screenshots/screen6.png` — Assess page
+- `assets/screenshots/screen7.png` — Legal toolkit
+- `assets/screenshots/screen8.png` — Dashboard
+
+You can add them with these commands in your project root (Windows PowerShell):
+
+```powershell
+mkdir -Force assets\screenshots
+# copy your image files into assets\screenshots (Explorer drag & drop or copy)
+git add assets/screenshots/*
+git add README.md
+git commit -m "Add screenshot placeholders to README and add screenshots"
+git push
+```
+
+Once the image files are present, the images will render automatically in the repository README.
