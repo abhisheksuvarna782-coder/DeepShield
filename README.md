@@ -4,7 +4,7 @@
 
 ### AI-Powered Deepfake Detection • Leak Intelligence • Automated Legal Response
 
-<img src="< width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/50c6f30f-6920-46de-b4b3-a817a7e047cb" />
+<img src="<img width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/542b2699-c39d-4c3f-bf82-1fc93211fa6a" />
 " width="100%" alt="DeepShield Banner">
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
@@ -137,13 +137,17 @@ Generate:
 
 ## 🏠 Home Page
 
-<img src="assets/home.png" width="100%" alt="Home Page">
+<img src="<img width="1363" height="633" alt="Screenshot 2026-07-21 201425" src="https://github.com/user-attachments/assets/916417ca-294d-4227-ba72-fb8dbaa47646" />
+
+
+" width="100%" alt="Home Page">
 
 ---
 
 ## 🚀 Platform Features
 
-<img src="assets/features.png" width="100%" alt="Features">
+<img src="<img width="1365" height="621" alt="Screenshot 2026-07-21 201457" src="https://github.com/user-attachments/assets/927dd5ff-32c8-4c43-b85b-28e427eba347" />
+" width="100%" alt="Features">
 
 ---
 
@@ -151,7 +155,8 @@ Generate:
 
 Detect Deepfakes • NSFW • Leak Intelligence
 
-<img src="assets/scan.png" width="100%" alt="Scanner">
+<img src="<img width="1359" height="767" alt="Screenshot 2026-07-21 201706" src="https://github.com/user-attachments/assets/d62cbd73-a92a-42f9-a57b-44c43349ccc0" />
+" width="100%" alt="Scanner">
 
 ---
 
@@ -159,7 +164,8 @@ Detect Deepfakes • NSFW • Leak Intelligence
 
 AI-generated threat analysis and response protocol.
 
-<img src="assets/assess.png" width="100%" alt="Assessment">
+<img src="<img width="1365" height="752" alt="Screenshot 2026-07-21 201915" src="https://github.com/user-attachments/assets/9e3decdf-0960-4da2-b31d-0f688e180c0c" />
+" width="100%" alt="Assessment">
 
 ---
 
@@ -167,7 +173,8 @@ AI-generated threat analysis and response protocol.
 
 Generate legal documents instantly.
 
-<img src="assets/legal.png" width="100%" alt="Legal Toolkit">
+<img src="<img width="1363" height="765" alt="Screenshot 2026-07-21 201956" src="https://github.com/user-attachments/assets/d4597d48-3686-4b06-82cc-d927d08c6b26" />
+g" width="100%" alt="Legal Toolkit">
 
 ---
 
@@ -175,19 +182,22 @@ Generate legal documents instantly.
 
 Continuous protection and leak monitoring.
 
-<img src="assets/dashboard.png" width="100%" alt="Dashboard">
+<img src="<img width="1365" height="767" alt="Screenshot 2026-07-21 202101" src="https://github.com/user-attachments/assets/15fcf5d8-0937-4e1b-9fb8-9631cb8d40c7" />
+" width="100%" alt="Dashboard">
 
 ---
 
 ## 🎯 Detection Landing
 
-<img src="assets/detect.png" width="100%" alt="Landing">
+<img src="<img width="1365" height="624" alt="Screenshot 2026-07-21 201531" src="https://github.com/user-attachments/assets/9c3b9bff-bdcc-49bb-8c94-ae85abe2922f" />
+" width="100%" alt="Landing">
 
 ---
 
 ## ⚡ Loading Screen
 
-<img src="assets/loading.png" width="100%" alt="Loading">
+<img src="<img width="1355" height="623" alt="Screenshot 2026-07-21 201356" src="https://github.com/user-attachments/assets/b0fe8fb9-f0f4-4dc9-b352-032b2df2a9eb" />
+" width="100%" alt="Loading">
 
 ---
 
