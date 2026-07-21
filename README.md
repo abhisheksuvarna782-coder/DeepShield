@@ -1,160 +1,313 @@
-# DeepShield v8 — AI Deepfake Detection + Leak Finder
+<div align="center">
 
-> **Frontend:** v2.0 (React/Vite) — UI fully preserved
-> **Backend:** v8 (FastAPI, 4-signal ensemble) — enhanced for Gemini, DALL-E, Firefly, Midjourney
-> **New in v8:** Real content URLs in leak results · TinEye search · Edge/chroma forensic signals
+# 🛡️ DEEPSHIELD
 
----
+### AI-Powered Deepfake Detection • Leak Intelligence • Automated Legal Response
 
-## AI Detection Models (v8 Ensemble)
+<img src="assets/home.png" width="100%" alt="DeepShield Banner">
 
-| Model | Weight | Detects |
-|-------|--------|---------|
-| openai/clip-vit-large-patch14 | 50% | Gemini, DALL-E 3, Midjourney, Stable Diffusion, Firefly, Leonardo, Bing Image Creator |
-| dima806/deepfake_vs_real_image_detection | 25% | Face deepfakes, face-swaps (ViT FaceForensics++) |
-| Forensic Artifacts | 25% | ELA, DCT, Noise, Edge coherence, Chroma noise, Metadata, Texture |
-| Falconsai/nsfw_image_detection | Additive | Explicit / NSFW classification |
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite)
+![AI](https://img.shields.io/badge/AI-Powered-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Total first-run download: ~2.1 GB (cached after first run)
+</div>
 
 ---
 
-## Leak Detection — Real Content URLs
+# 📖 Overview
 
-Each leak result now shows:
-- CONTENT URL — the exact page where content was found
-- View Content Page button — opens the page directly
-- Report This Content — platform's abuse/report form
-- DMCA button — direct takedown form
-- Copy URL — for evidence documentation
+**DeepShield** is an AI-powered digital protection platform designed to combat **deepfakes, AI-generated explicit content, identity misuse, and image leaks**.
 
-Search engines used (in order): Google Lens → Bing Visual Search → TinEye
+The platform combines computer vision, threat intelligence, reverse image search, facial matching, perceptual hashing, and automated legal response into one unified cybersecurity solution.
 
----
+DeepShield helps users:
 
-## Project Structure
-
-```
-DeepShield_Final/
-├── README.md
-├── frontend/
-│   ├── src/pages/        Scan.jsx  Assess.jsx  Legal.jsx  Dashboard.jsx  Landing.jsx
-│   ├── vite.config.js    proxies /api → localhost:8000
-│   ├── package.json
-│   └── .env
-└── backend/
-    ├── main.py           routes + CORS + .env
-    ├── ensemble.py       CLIP 50% + ViT 25% + Forensic 25%
-    ├── clip_model.py     CLIP ViT-L/14 + Gemini/DALL-E/Firefly prompts
-    ├── deepfake_model.py dima806 ViT deepfake detector
-    ├── artifact_model.py ELA/DCT/Noise/Edge/Chroma/Metadata
-    ├── deepfake_detector.py  analyze_image() entry + NSFW
-    ├── detection_models.py   ensemble_detection() wrapper
-    ├── web_scanner.py    Google+Bing+TinEye real reverse search
-    ├── threat_profiler.py
-    ├── llm_client.py
-    ├── reporting_takedown.py
-    ├── requirements.txt
-    └── .env
-```
+- 🔍 Detect AI-generated deepfake images
+- 🚨 Detect NSFW AI-generated content
+- 🌐 Search for leaked images across the internet
+- 🧠 Generate AI-powered threat assessments
+- ⚖️ Generate legal documents automatically
+- 📑 Create DMCA takedown requests
+- 👮 Generate police complaint drafts
+- 🛡️ Monitor identity leaks continuously
 
 ---
 
-## Environment Variables
+# ✨ Features
 
-backend/.env
-```
-PORT=8000
-ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
-OLLAMA_URL=http://localhost:11434
-```
+## 🔍 AI Deepfake Detection
 
-frontend/.env
-```
-VITE_API_URL=http://localhost:8000
-```
+- Vision Transformer based analysis
+- Multiple AI detection models
+- Confidence scoring
+- Authenticity verification
 
 ---
 
-## Setup and Run
+## 🚨 NSFW Detection
 
-### Requirements
-- Python 3.10+
-- Node.js 18+ and npm
-- pip
+- AI explicit content detection
+- Image safety classification
+- Risk assessment
 
-### Backend
+---
+
+## 🌐 Leak Detection
+
+- Reverse image intelligence
+- Facial signature matching
+- Perceptual hash verification
+- Leak source identification
+
+---
+
+## 🧠 Threat Assessment
+
+Describe any incident and DeepShield generates:
+
+- Threat level
+- Risk analysis
+- Spread estimation
+- Recommended actions
+- Legal suggestions
+
+---
+
+## ⚖️ Legal Toolkit
+
+Generate:
+
+- DMCA Takedown Notices
+- Police Complaint Drafts
+- Platform Removal Requests
+- Legal Reports
+
+---
+
+## 🛡️ Continuous Monitoring
+
+- Upload reference images
+- Local perceptual hashing
+- Continuous internet monitoring
+- Privacy-first architecture
+- Instant alerts
+
+---
+
+# 🏗️ Tech Stack
+
+## Frontend
+
+- React.js
+- Vite
+- React Router
+- Modern CSS
+- Responsive UI
+
+## Backend
+
+- FastAPI
+- Python
+- Uvicorn
+
+## AI Models
+
+- CLIP Vision Transformer
+- Deepfake Detection Model
+- NSFW Detection Model
+- Perceptual Hash Matching
+- OCR Analysis
+
+## Intelligence
+
+- Reverse Image Search
+- Threat Profiling
+- Leak Intelligence
+- Legal AI Assistant
+
+---
+
+# 📸 Screenshots
+
+---
+
+## 🏠 Home Page
+
+<img src="assets/home.png" width="100%" alt="Home Page">
+
+---
+
+## 🚀 Platform Features
+
+<img src="assets/features.png" width="100%" alt="Features">
+
+---
+
+## 🔎 Image Scanner
+
+Detect Deepfakes • NSFW • Leak Intelligence
+
+<img src="assets/scan.png" width="100%" alt="Scanner">
+
+---
+
+## 🧠 Situation Assessment
+
+AI-generated threat analysis and response protocol.
+
+<img src="assets/assess.png" width="100%" alt="Assessment">
+
+---
+
+## ⚖️ Legal Toolkit
+
+Generate legal documents instantly.
+
+<img src="assets/legal.png" width="100%" alt="Legal Toolkit">
+
+---
+
+## 🛡️ Monitoring Dashboard
+
+Continuous protection and leak monitoring.
+
+<img src="assets/dashboard.png" width="100%" alt="Dashboard">
+
+---
+
+## 🎯 Detection Landing
+
+<img src="assets/detect.png" width="100%" alt="Landing">
+
+---
+
+## ⚡ Loading Screen
+
+<img src="assets/loading.png" width="100%" alt="Loading">
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
 ```bash
-cd backend
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 ```
-Backend: http://localhost:8000
-API docs: http://localhost:8000/docs
-Note: First run downloads ~2.1 GB of models automatically.
 
-### Frontend
+---
+
+## Frontend
+
 ```bash
 cd frontend
+
 npm install
+
 npm run dev
 ```
-Frontend: http://localhost:3000
 
-### Optional — Ollama LLM (for legal docs + threat analysis)
+---
+
+## Backend
+
 ```bash
-# Install: https://ollama.ai/download
-ollama serve
-ollama pull tinyllama    # fast, ~600 MB
-# or: ollama pull phi3  # better quality, ~2.3 GB
-```
-Without Ollama, image detection still works fully — only LLM text features are affected.
+cd backend
 
----
+pip install -r requirements.txt
 
-## API Endpoints
-
-GET  /api/health          backend health + model info
-POST /api/analyze         full pipeline: deepfake + NSFW + leaks + threat
-POST /api/assess          text threat assessment (LLM)
-POST /api/legal           generate legal document
-POST /api/legal/stream    streaming legal doc
-POST /api/action-plan     platform-specific action plan
-
----
-
-## Troubleshooting
-
-Models fail to download: check internet connection. Cache at ~/.cache/huggingface/
-CORS error: check ALLOWED_ORIGINS in backend/.env includes your frontend port
-LLM 503: run `ollama serve` then `ollama pull tinyllama`
-Port 3000 in use: change port in frontend/vite.config.js and add it to ALLOWED_ORIGINS
-Leak search shows RISK-BASED results: Google/Bing blocked automated search in your region — intelligence estimates are shown instead of confirmed matches
-
----
-
-## Screenshots
-
-Below are screenshots of the `DeepShield` UI. To make these visible on GitHub, add the image files to `assets/screenshots/` with the filenames used below and push them to the repository.
-
-- `assets/screenshots/screen1.png` — Loading / Splash
-- `assets/screenshots/screen2.png` — Home hero
-- `assets/screenshots/screen3.png` — Features / Threat protection
-- `assets/screenshots/screen4.png` — Protect / Respond
-- `assets/screenshots/screen5.png` — Scan page (uploader)
-- `assets/screenshots/screen6.png` — Assess page
-- `assets/screenshots/screen7.png` — Legal toolkit
-- `assets/screenshots/screen8.png` — Dashboard
-
-You can add them with these commands in your project root (Windows PowerShell):
-
-```powershell
-mkdir -Force assets\screenshots
-# copy your image files into assets\screenshots (Explorer drag & drop or copy)
-git add assets/screenshots/*
-git add README.md
-git commit -m "Add screenshot placeholders to README and add screenshots"
-git push
+uvicorn main:app --reload
 ```
 
-Once the image files are present, the images will render automatically in the repository README.
+---
+
+# 📁 Project Structure
+
+```
+DeepShield
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   └── package.json
+│
+├── backend
+│   ├── models
+│   ├── services
+│   ├── main.py
+│   └── requirements.txt
+│
+└── assets
+```
+
+---
+
+# 🚀 Future Improvements
+
+- Live OSINT Intelligence
+- Browser Extension
+- Mobile App
+- Email Alerts
+- Telegram Alerts
+- User Authentication
+- Cloud Monitoring
+- AI Video Deepfake Detection
+- Real-time Threat Dashboard
+
+---
+
+# 🎯 Use Cases
+
+- Digital Identity Protection
+- Deepfake Investigation
+- Image Leak Detection
+- Online Reputation Protection
+- Cybercrime Reporting
+- Copyright Protection
+- Law Enforcement Assistance
+- Content Moderation
+
+---
+
+# 🔒 Privacy
+
+DeepShield follows a **Privacy First** architecture.
+
+- Local perceptual hashing
+- No unnecessary image storage
+- Secure AI processing
+- Minimal data collection
+
+---
+
+# 👨‍💻 Developer
+
+**Abhishek Suvarna**
+
+AI & ML Engineer
+
+GitHub:
+https://github.com/abhisheksuvarna782-coder
+
+---
+
+# ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub.
+
+It motivates future development and improvements.
+
+---
+
+<div align="center">
+
+## 🛡️ DeepShield
+
+### Protect • Detect • Respond
+
+Built with ❤️ using React, FastAPI and Artificial Intelligence.
+
+</div>
