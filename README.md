@@ -340,9 +340,13 @@ AI & Machine Learning Engineer
 https://github.com/abhisheksuvarna782-coder
 
 and also thanks to my teammates 
+
  Ajaya Raj A N
+
  Rishitha R
+
  Prajna 
+
  
  🚀 QUADCODERS 
 
