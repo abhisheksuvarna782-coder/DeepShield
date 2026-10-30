@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ DEEPSHIELD
+# 🛡️ DEEPSHIELD.
 
 ### AI-Powered Deepfake Detection • Leak Intelligence • Automated Legal Response
 
